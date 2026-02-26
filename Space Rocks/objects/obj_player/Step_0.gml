@@ -52,4 +52,13 @@ var l03BADCA9_0;l03BADCA9_0 = mouse_check_button_pressed(mb_left);if (l03BADCA
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "obj_bullet"
 	/// @DnDSaveInfo : "objectid" "obj_bullet"
-	instance_create_layer(x + 0, y + 0, "Instances", obj_bullet);}
+	instance_create_layer(x + 0, y + 0, "Instances", obj_bullet);
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 19F73CA9
+	/// @DnDParent : 03BADCA9
+	/// @DnDArgument : "soundid" "snd_zap"
+	/// @DnDArgument : "pitch" "random_range(0.8,1.2)"
+	/// @DnDSaveInfo : "soundid" "snd_zap"
+	audio_play_sound(snd_zap, 0, 0, 1.0, undefined, random_range(0.8,1.2));}
