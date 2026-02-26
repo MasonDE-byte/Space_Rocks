@@ -21,10 +21,12 @@ draw_set_valign(fa_middle);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 4526ED86
+/// @DnDArgument : "x" "125"
 /// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "170"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" "button_text"
-draw_text(x + 0, y + 0, string(button_text) + "");
+draw_text(x + 125, y + 170, string(button_text) + "");
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
