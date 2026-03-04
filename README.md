@@ -11,3 +11,4 @@ Features Include:
 * Sound Effects
 * Abilities After 10 Seconds and When A Rock Is Destroyed
 * Press ESC To Go Back To Main Menu
+* Deceleration Added
