@@ -8,7 +8,25 @@ var l497039E8_0;l497039E8_0 = keyboard_check(vk_up);if (l497039E8_0){	/// @D
 	/// @DnDParent : 497039E8
 	/// @DnDArgument : "dir" "image_angle"
 	/// @DnDArgument : "speed" "0.1"
-	motion_add(image_angle, 0.1);}
+	motion_add(image_angle, 0.1);
+
+	/// @DnDAction : YoYo Games.Movement.Set_Friction
+	/// @DnDVersion : 1
+	/// @DnDHash : 220692BC
+	/// @DnDParent : 497039E8
+	friction = 0;}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Released
+/// @DnDVersion : 1
+/// @DnDHash : 02D9B91F
+/// @DnDArgument : "key" "vk_up"
+var l02D9B91F_0;l02D9B91F_0 = keyboard_check_released(vk_up);if (l02D9B91F_0){	/// @DnDAction : YoYo Games.Movement.Set_Friction
+	/// @DnDVersion : 1
+	/// @DnDHash : 3D3D85FB
+	/// @DnDParent : 02D9B91F
+	/// @DnDArgument : "friction" "0.0075"
+	/// @DnDArgument : "friction_relative" "1"
+	friction += 0.0075;}
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
