@@ -1,4 +1,4 @@
-/// @DnDAction : YoYo Games.Movement.Wrap_Room
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 3B6F1C76
-move_wrap(1, 1, 0);
+/// @DnDHash : 0620CE65
+instance_destroy();
