@@ -1,3 +1,14 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 07889520
+/// @DnDArgument : "var" "powerup"
+/// @DnDArgument : "value" "2"
+if(powerup == 2){	/// @DnDAction : YoYo Games.Common.Exit_Event
+	/// @DnDVersion : 1
+	/// @DnDHash : 4025B67B
+	/// @DnDParent : 07889520
+	exit;}
+
 /// @DnDAction : YoYo Games.Particles.Effect
 /// @DnDVersion : 1
 /// @DnDHash : 6DF1CA26
