@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5D7EAA26
+/// @DnDArgument : "expr" "clamp(speed, -max_speed, max_speed)"
+/// @DnDArgument : "var" "speed"
+speed = clamp(speed, -max_speed, max_speed);
+
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
 /// @DnDHash : 497039E8
