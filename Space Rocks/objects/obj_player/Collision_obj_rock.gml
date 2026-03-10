@@ -12,11 +12,13 @@ if(powerup == 2){	/// @DnDAction : YoYo Games.Common.Exit_Event
 /// @DnDAction : YoYo Games.Particles.Effect
 /// @DnDVersion : 1
 /// @DnDHash : 6DF1CA26
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "type" "3"
 /// @DnDArgument : "where" "1"
 /// @DnDArgument : "size" "1"
 /// @DnDArgument : "color" "$FF2B2BDB"
-effect_create_above(3, 0, 0, 1, $FF2B2BDB & $ffffff);
+effect_create_above(3, x + 0, y + 0, 1, $FF2B2BDB & $ffffff);
 
 /// @DnDAction : YoYo Games.Audio.Stop_Audio
 /// @DnDVersion : 1
